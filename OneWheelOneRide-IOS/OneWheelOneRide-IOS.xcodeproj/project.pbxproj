@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E705C7762A72F2EA0047BE6B /* myGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705C7752A72F2EA0047BE6B /* myGroups.swift */; };
+		E705C77A2A72F6C90047BE6B /* myTrails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705C7792A72F6C90047BE6B /* myTrails.swift */; };
+		E705C77C2A73319B0047BE6B /* myTrialsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705C77B2A73319B0047BE6B /* myTrialsDetails.swift */; };
+		E705C77E2A733CED0047BE6B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705C77D2A733CED0047BE6B /* MapView.swift */; };
+		E705C7832A73F2A30047BE6B /* myTrailsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705C7822A73F2A30047BE6B /* myTrailsRow.swift */; };
+		E71060992A73F6C1004E3F71 /* TrailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71060982A73F6C1004E3F71 /* TrailData.swift */; };
+		E710609B2A73F6FB004E3F71 /* GroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E710609A2A73F6FB004E3F71 /* GroupData.swift */; };
+		E710609D2A73F724004E3F71 /* TrailReviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E710609C2A73F724004E3F71 /* TrailReviewData.swift */; };
+		E710609F2A73F73A004E3F71 /* GroupReviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E710609E2A73F73A004E3F71 /* GroupReviewData.swift */; };
+		E71060A12A73F983004E3F71 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71060A02A73F983004E3F71 /* CircleImage.swift */; };
+		E71060A32A741CC8004E3F71 /* myGroupDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71060A22A741CC8004E3F71 /* myGroupDetails.swift */; };
+		E71060A52A741CDA004E3F71 /* MyGroupRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71060A42A741CDA004E3F71 /* MyGroupRow.swift */; };
+		E71060A92A744970004E3F71 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71060A82A744970004E3F71 /* Launch Screen.storyboard */; };
+		E7C63D702A72C689006CF6DF /* OneWheelOneRide_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C63D6F2A72C689006CF6DF /* OneWheelOneRide_IOSApp.swift */; };
+		E7C63D722A72C689006CF6DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C63D712A72C689006CF6DF /* ContentView.swift */; };
+		E7C63D742A72C68B006CF6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C63D732A72C68B006CF6DF /* Assets.xcassets */; };
+		E7C63D772A72C68B006CF6DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C63D762A72C68B006CF6DF /* Preview Assets.xcassets */; };
+		E7C63D812A72C68B006CF6DF /* OneWheelOneRide_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C63D802A72C68B006CF6DF /* OneWheelOneRide_IOSTests.swift */; };
+		E7C63D8B2A72C68B006CF6DF /* OneWheelOneRide_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C63D8A2A72C68B006CF6DF /* OneWheelOneRide_IOSUITests.swift */; };
+		E7C63D8D2A72C68B006CF6DF /* OneWheelOneRide_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C63D8C2A72C68B006CF6DF /* OneWheelOneRide_IOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7C63D7D2A72C68B006CF6DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C63D642A72C689006CF6DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C63D6B2A72C689006CF6DF;
+			remoteInfo = "OneWheelOneRide-IOS";
+		};
+		E7C63D872A72C68B006CF6DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C63D642A72C689006CF6DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C63D6B2A72C689006CF6DF;
+			remoteInfo = "OneWheelOneRide-IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E705C7752A72F2EA0047BE6B /* myGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myGroups.swift; sourceTree = "<group>"; };
+		E705C7792A72F6C90047BE6B /* myTrails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTrails.swift; sourceTree = "<group>"; };
+		E705C77B2A73319B0047BE6B /* myTrialsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTrialsDetails.swift; sourceTree = "<group>"; };
+		E705C77D2A733CED0047BE6B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E705C7822A73F2A30047BE6B /* myTrailsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTrailsRow.swift; sourceTree = "<group>"; };
+		E71060982A73F6C1004E3F71 /* TrailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailData.swift; sourceTree = "<group>"; };
+		E710609A2A73F6FB004E3F71 /* GroupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupData.swift; sourceTree = "<group>"; };
+		E710609C2A73F724004E3F71 /* TrailReviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailReviewData.swift; sourceTree = "<group>"; };
+		E710609E2A73F73A004E3F71 /* GroupReviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupReviewData.swift; sourceTree = "<group>"; };
+		E71060A02A73F983004E3F71 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		E71060A22A741CC8004E3F71 /* myGroupDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myGroupDetails.swift; sourceTree = "<group>"; };
+		E71060A42A741CDA004E3F71 /* MyGroupRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupRow.swift; sourceTree = "<group>"; };
+		E71060A82A744970004E3F71 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E7C63D6C2A72C689006CF6DF /* OneWheelOneRide-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneWheelOneRide-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C63D6F2A72C689006CF6DF /* OneWheelOneRide_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWheelOneRide_IOSApp.swift; sourceTree = "<group>"; };
+		E7C63D712A72C689006CF6DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7C63D732A72C68B006CF6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7C63D762A72C68B006CF6DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7C63D7C2A72C68B006CF6DF /* OneWheelOneRide-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneWheelOneRide-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C63D802A72C68B006CF6DF /* OneWheelOneRide_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWheelOneRide_IOSTests.swift; sourceTree = "<group>"; };
+		E7C63D862A72C68B006CF6DF /* OneWheelOneRide-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneWheelOneRide-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C63D8A2A72C68B006CF6DF /* OneWheelOneRide_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWheelOneRide_IOSUITests.swift; sourceTree = "<group>"; };
+		E7C63D8C2A72C68B006CF6DF /* OneWheelOneRide_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWheelOneRide_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7C63D692A72C689006CF6DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C63D792A72C68B006CF6DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C63D832A72C68B006CF6DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E705C7602A72CFD90047BE6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7C63D712A72C689006CF6DF /* ContentView.swift */,
+				E705C77F2A73EF3F0047BE6B /* Groups */,
+				E705C7802A73EF4A0047BE6B /* Trails */,
+				E705C7812A73EF6C0047BE6B /* Helpers */,
+				E71060A82A744970004E3F71 /* Launch Screen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E705C7612A72CFE10047BE6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E71060982A73F6C1004E3F71 /* TrailData.swift */,
+				E710609A2A73F6FB004E3F71 /* GroupData.swift */,
+				E710609C2A73F724004E3F71 /* TrailReviewData.swift */,
+				E710609E2A73F73A004E3F71 /* GroupReviewData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E705C77F2A73EF3F0047BE6B /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				E705C7752A72F2EA0047BE6B /* myGroups.swift */,
+				E71060A22A741CC8004E3F71 /* myGroupDetails.swift */,
+				E71060A42A741CDA004E3F71 /* MyGroupRow.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		E705C7802A73EF4A0047BE6B /* Trails */ = {
+			isa = PBXGroup;
+			children = (
+				E705C7792A72F6C90047BE6B /* myTrails.swift */,
+				E705C77B2A73319B0047BE6B /* myTrialsDetails.swift */,
+				E705C7822A73F2A30047BE6B /* myTrailsRow.swift */,
+			);
+			path = Trails;
+			sourceTree = "<group>";
+		};
+		E705C7812A73EF6C0047BE6B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E705C77D2A733CED0047BE6B /* MapView.swift */,
+				E71060A02A73F983004E3F71 /* CircleImage.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E7C63D632A72C689006CF6DF = {
+			isa = PBXGroup;
+			children = (
+				E7C63D6E2A72C689006CF6DF /* OneWheelOneRide-IOS */,
+				E7C63D7F2A72C68B006CF6DF /* OneWheelOneRide-IOSTests */,
+				E7C63D892A72C68B006CF6DF /* OneWheelOneRide-IOSUITests */,
+				E7C63D6D2A72C689006CF6DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7C63D6D2A72C689006CF6DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C63D6C2A72C689006CF6DF /* OneWheelOneRide-IOS.app */,
+				E7C63D7C2A72C68B006CF6DF /* OneWheelOneRide-IOSTests.xctest */,
+				E7C63D862A72C68B006CF6DF /* OneWheelOneRide-IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C63D6E2A72C689006CF6DF /* OneWheelOneRide-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7C63D6F2A72C689006CF6DF /* OneWheelOneRide_IOSApp.swift */,
+				E7C63D732A72C68B006CF6DF /* Assets.xcassets */,
+				E705C7612A72CFE10047BE6B /* Model */,
+				E705C7602A72CFD90047BE6B /* Views */,
+				E7C63D752A72C68B006CF6DF /* Preview Content */,
+			);
+			path = "OneWheelOneRide-IOS";
+			sourceTree = "<group>";
+		};
+		E7C63D752A72C68B006CF6DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E7C63D762A72C68B006CF6DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7C63D7F2A72C68B006CF6DF /* OneWheelOneRide-IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7C63D802A72C68B006CF6DF /* OneWheelOneRide_IOSTests.swift */,
+			);
+			path = "OneWheelOneRide-IOSTests";
+			sourceTree = "<group>";
+		};
+		E7C63D892A72C68B006CF6DF /* OneWheelOneRide-IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7C63D8A2A72C68B006CF6DF /* OneWheelOneRide_IOSUITests.swift */,
+				E7C63D8C2A72C68B006CF6DF /* OneWheelOneRide_IOSUITestsLaunchTests.swift */,
+			);
+			path = "OneWheelOneRide-IOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7C63D6B2A72C689006CF6DF /* OneWheelOneRide-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C63D902A72C68B006CF6DF /* Build configuration list for PBXNativeTarget "OneWheelOneRide-IOS" */;
+			buildPhases = (
+				E7C63D682A72C689006CF6DF /* Sources */,
+				E7C63D692A72C689006CF6DF /* Frameworks */,
+				E7C63D6A2A72C689006CF6DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OneWheelOneRide-IOS";
+			productName = "OneWheelOneRide-IOS";
+			productReference = E7C63D6C2A72C689006CF6DF /* OneWheelOneRide-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7C63D7B2A72C68B006CF6DF /* OneWheelOneRide-IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C63D932A72C68B006CF6DF /* Build configuration list for PBXNativeTarget "OneWheelOneRide-IOSTests" */;
+			buildPhases = (
+				E7C63D782A72C68B006CF6DF /* Sources */,
+				E7C63D792A72C68B006CF6DF /* Frameworks */,
+				E7C63D7A2A72C68B006CF6DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C63D7E2A72C68B006CF6DF /* PBXTargetDependency */,
+			);
+			name = "OneWheelOneRide-IOSTests";
+			productName = "OneWheelOneRide-IOSTests";
+			productReference = E7C63D7C2A72C68B006CF6DF /* OneWheelOneRide-IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7C63D852A72C68B006CF6DF /* OneWheelOneRide-IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C63D962A72C68B006CF6DF /* Build configuration list for PBXNativeTarget "OneWheelOneRide-IOSUITests" */;
+			buildPhases = (
+				E7C63D822A72C68B006CF6DF /* Sources */,
+				E7C63D832A72C68B006CF6DF /* Frameworks */,
+				E7C63D842A72C68B006CF6DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C63D882A72C68B006CF6DF /* PBXTargetDependency */,
+			);
+			name = "OneWheelOneRide-IOSUITests";
+			productName = "OneWheelOneRide-IOSUITests";
+			productReference = E7C63D862A72C68B006CF6DF /* OneWheelOneRide-IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7C63D642A72C689006CF6DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E7C63D6B2A72C689006CF6DF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E7C63D7B2A72C68B006CF6DF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E7C63D6B2A72C689006CF6DF;
+					};
+					E7C63D852A72C68B006CF6DF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E7C63D6B2A72C689006CF6DF;
+					};
+				};
+			};
+			buildConfigurationList = E7C63D672A72C689006CF6DF /* Build configuration list for PBXProject "OneWheelOneRide-IOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7C63D632A72C689006CF6DF;
+			productRefGroup = E7C63D6D2A72C689006CF6DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7C63D6B2A72C689006CF6DF /* OneWheelOneRide-IOS */,
+				E7C63D7B2A72C68B006CF6DF /* OneWheelOneRide-IOSTests */,
+				E7C63D852A72C68B006CF6DF /* OneWheelOneRide-IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7C63D6A2A72C689006CF6DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71060A92A744970004E3F71 /* Launch Screen.storyboard in Resources */,
+				E7C63D772A72C68B006CF6DF /* Preview Assets.xcassets in Resources */,
+				E7C63D742A72C68B006CF6DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C63D7A2A72C68B006CF6DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C63D842A72C68B006CF6DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7C63D682A72C689006CF6DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E705C77A2A72F6C90047BE6B /* myTrails.swift in Sources */,
+				E705C77E2A733CED0047BE6B /* MapView.swift in Sources */,
+				E71060A32A741CC8004E3F71 /* myGroupDetails.swift in Sources */,
+				E7C63D722A72C689006CF6DF /* ContentView.swift in Sources */,
+				E7C63D702A72C689006CF6DF /* OneWheelOneRide_IOSApp.swift in Sources */,
+				E710609D2A73F724004E3F71 /* TrailReviewData.swift in Sources */,
+				E71060A52A741CDA004E3F71 /* MyGroupRow.swift in Sources */,
+				E71060A12A73F983004E3F71 /* CircleImage.swift in Sources */,
+				E705C7832A73F2A30047BE6B /* myTrailsRow.swift in Sources */,
+				E710609F2A73F73A004E3F71 /* GroupReviewData.swift in Sources */,
+				E710609B2A73F6FB004E3F71 /* GroupData.swift in Sources */,
+				E71060992A73F6C1004E3F71 /* TrailData.swift in Sources */,
+				E705C7762A72F2EA0047BE6B /* myGroups.swift in Sources */,
+				E705C77C2A73319B0047BE6B /* myTrialsDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C63D782A72C68B006CF6DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C63D812A72C68B006CF6DF /* OneWheelOneRide_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C63D822A72C68B006CF6DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C63D8D2A72C68B006CF6DF /* OneWheelOneRide_IOSUITestsLaunchTests.swift in Sources */,
+				E7C63D8B2A72C68B006CF6DF /* OneWheelOneRide_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7C63D7E2A72C68B006CF6DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C63D6B2A72C689006CF6DF /* OneWheelOneRide-IOS */;
+			targetProxy = E7C63D7D2A72C68B006CF6DF /* PBXContainerItemProxy */;
+		};
+		E7C63D882A72C68B006CF6DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C63D6B2A72C689006CF6DF /* OneWheelOneRide-IOS */;
+			targetProxy = E7C63D872A72C68B006CF6DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7C63D8E2A72C68B006CF6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7C63D8F2A72C68B006CF6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7C63D912A72C68B006CF6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneWheelOneRide-IOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.OneWheelOneRide-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7C63D922A72C68B006CF6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneWheelOneRide-IOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.OneWheelOneRide-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7C63D942A72C68B006CF6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.OneWheelOneRide-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneWheelOneRide-IOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneWheelOneRide-IOS";
+			};
+			name = Debug;
+		};
+		E7C63D952A72C68B006CF6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.OneWheelOneRide-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneWheelOneRide-IOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneWheelOneRide-IOS";
+			};
+			name = Release;
+		};
+		E7C63D972A72C68B006CF6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.OneWheelOneRide-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OneWheelOneRide-IOS";
+			};
+			name = Debug;
+		};
+		E7C63D982A72C68B006CF6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.OneWheelOneRide-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OneWheelOneRide-IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7C63D672A72C689006CF6DF /* Build configuration list for PBXProject "OneWheelOneRide-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C63D8E2A72C68B006CF6DF /* Debug */,
+				E7C63D8F2A72C68B006CF6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C63D902A72C68B006CF6DF /* Build configuration list for PBXNativeTarget "OneWheelOneRide-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C63D912A72C68B006CF6DF /* Debug */,
+				E7C63D922A72C68B006CF6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C63D932A72C68B006CF6DF /* Build configuration list for PBXNativeTarget "OneWheelOneRide-IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C63D942A72C68B006CF6DF /* Debug */,
+				E7C63D952A72C68B006CF6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C63D962A72C68B006CF6DF /* Build configuration list for PBXNativeTarget "OneWheelOneRide-IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C63D972A72C68B006CF6DF /* Debug */,
+				E7C63D982A72C68B006CF6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7C63D642A72C689006CF6DF /* Project object */;
+}
