@@ -10,6 +10,7 @@ import MapKit
 
 struct myTrialsDetails: View {
     @EnvironmentObject var trailData: TrailData
+    @EnvironmentObject var reviewData: TrailReviewData
     var trail: Trail
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 29.4220, longitude: -98.4850),
@@ -43,7 +44,9 @@ struct myTrialsDetails: View {
                 
                 Text("Reviews:")
                     .font(.title2)
-                Text("reviews will go here, a list of them...")
+                
+                myTrailReviews()
+                
             }
             .offset(y: -130)
             .padding()

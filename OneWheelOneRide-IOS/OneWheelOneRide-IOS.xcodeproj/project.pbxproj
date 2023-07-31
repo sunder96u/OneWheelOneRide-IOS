@@ -20,6 +20,9 @@
 		E71060A32A741CC8004E3F71 /* myGroupDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71060A22A741CC8004E3F71 /* myGroupDetails.swift */; };
 		E71060A52A741CDA004E3F71 /* MyGroupRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71060A42A741CDA004E3F71 /* MyGroupRow.swift */; };
 		E71060A92A744970004E3F71 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71060A82A744970004E3F71 /* Launch Screen.storyboard */; };
+		E76A71C42A7862E300805207 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A71C32A7862E300805207 /* CategoryHome.swift */; };
+		E76A71C62A78634500805207 /* myGroupRides.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A71C52A78634500805207 /* myGroupRides.swift */; };
+		E76A71C82A78639A00805207 /* myTrailReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A71C72A78639A00805207 /* myTrailReview.swift */; };
 		E7C63D702A72C689006CF6DF /* OneWheelOneRide_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C63D6F2A72C689006CF6DF /* OneWheelOneRide_IOSApp.swift */; };
 		E7C63D722A72C689006CF6DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C63D712A72C689006CF6DF /* ContentView.swift */; };
 		E7C63D742A72C68B006CF6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C63D732A72C68B006CF6DF /* Assets.xcassets */; };
@@ -60,6 +63,9 @@
 		E71060A22A741CC8004E3F71 /* myGroupDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myGroupDetails.swift; sourceTree = "<group>"; };
 		E71060A42A741CDA004E3F71 /* MyGroupRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupRow.swift; sourceTree = "<group>"; };
 		E71060A82A744970004E3F71 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E76A71C32A7862E300805207 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		E76A71C52A78634500805207 /* myGroupRides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myGroupRides.swift; sourceTree = "<group>"; };
+		E76A71C72A78639A00805207 /* myTrailReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTrailReview.swift; sourceTree = "<group>"; };
 		E7C63D6C2A72C689006CF6DF /* OneWheelOneRide-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneWheelOneRide-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C63D6F2A72C689006CF6DF /* OneWheelOneRide_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWheelOneRide_IOSApp.swift; sourceTree = "<group>"; };
 		E7C63D712A72C689006CF6DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				E7C63D712A72C689006CF6DF /* ContentView.swift */,
+				E76A71C22A7862CC00805207 /* Categories */,
 				E705C77F2A73EF3F0047BE6B /* Groups */,
 				E705C7802A73EF4A0047BE6B /* Trails */,
 				E705C7812A73EF6C0047BE6B /* Helpers */,
@@ -126,6 +133,7 @@
 				E705C7752A72F2EA0047BE6B /* myGroups.swift */,
 				E71060A22A741CC8004E3F71 /* myGroupDetails.swift */,
 				E71060A42A741CDA004E3F71 /* MyGroupRow.swift */,
+				E76A71C52A78634500805207 /* myGroupRides.swift */,
 			);
 			path = Groups;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 			children = (
 				E705C7792A72F6C90047BE6B /* myTrails.swift */,
 				E705C77B2A73319B0047BE6B /* myTrialsDetails.swift */,
+				E76A71C72A78639A00805207 /* myTrailReview.swift */,
 				E705C7822A73F2A30047BE6B /* myTrailsRow.swift */,
 			);
 			path = Trails;
@@ -147,6 +156,14 @@
 				E71060A02A73F983004E3F71 /* CircleImage.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E76A71C22A7862CC00805207 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E76A71C32A7862E300805207 /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		E7C63D632A72C689006CF6DF = {
@@ -341,8 +358,10 @@
 				E705C77E2A733CED0047BE6B /* MapView.swift in Sources */,
 				E71060A32A741CC8004E3F71 /* myGroupDetails.swift in Sources */,
 				E7C63D722A72C689006CF6DF /* ContentView.swift in Sources */,
+				E76A71C42A7862E300805207 /* CategoryHome.swift in Sources */,
 				E7C63D702A72C689006CF6DF /* OneWheelOneRide_IOSApp.swift in Sources */,
 				E710609D2A73F724004E3F71 /* TrailReviewData.swift in Sources */,
+				E76A71C62A78634500805207 /* myGroupRides.swift in Sources */,
 				E71060A52A741CDA004E3F71 /* MyGroupRow.swift in Sources */,
 				E71060A12A73F983004E3F71 /* CircleImage.swift in Sources */,
 				E705C7832A73F2A30047BE6B /* myTrailsRow.swift in Sources */,
@@ -350,6 +369,7 @@
 				E710609B2A73F6FB004E3F71 /* GroupData.swift in Sources */,
 				E71060992A73F6C1004E3F71 /* TrailData.swift in Sources */,
 				E705C7762A72F2EA0047BE6B /* myGroups.swift in Sources */,
+				E76A71C82A78639A00805207 /* myTrailReview.swift in Sources */,
 				E705C77C2A73319B0047BE6B /* myTrialsDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +536,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -544,6 +565,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

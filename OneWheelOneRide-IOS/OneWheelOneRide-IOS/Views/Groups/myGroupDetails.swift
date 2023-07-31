@@ -38,7 +38,7 @@ struct myGroupDetails: View {
                 
                 Text("Meet Ups:")
                     .font(.title2)
-                Text("List of Meet-ups goes here")
+                myGroupRides()
             }
             .offset(y: -130)
             .padding()
